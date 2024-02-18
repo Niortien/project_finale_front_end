@@ -1,0 +1,41 @@
+.statistiques {
+    display: flex;
+    justify-content: space-between;
+    padding:  2rem 3rem ;
+  }
+  h5{
+    text-align: center;
+  }
+  .nb{
+    text-align: center;
+    font-weight: bold;
+  }
+  .statistique {
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 15px;
+    flex: 0 1 calc(30% - 10px);
+  }
+  
+  .orange {
+    background-color: orange;
+    color: white; 
+  }
+  .red {
+    background-color: red;
+    color: white; 
+  }
+  
+  .green {
+    background-color: green;
+    color: white; 
+  }
+  
+  .blue {
+    background-color: blue;
+    color: white; 
+  }
+  .graph-container{
+    margin-top: 30px;
+    width: 50%;
+  }

@@ -1,0 +1,65 @@
+
+h2{
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.logout-icon{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.account-content {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.toggle-button {
+  cursor: pointer;
+  font-size: 20px;
+  color: #3498db;
+}
+
+.toggle-button:hover {
+  color: #2980b9;
+}
+.profile-image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  font-size: 40px;
+  color: #555;
+  cursor: pointer;
+}
+/* Styles pour le mode sombre */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Styles pour le mode clair */
+.light-mode {
+  background-color: #fff;
+  color: #222;
+}
